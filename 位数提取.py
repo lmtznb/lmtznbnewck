@@ -1,0 +1,5 @@
+x=input('输入一个4位整数')
+print((eval(x)%10))
+print((eval(x)//10%10))
+print((eval(x)//100%10))
+print((eval(x)//1000))
